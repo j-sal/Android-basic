@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.HW5.MainActivity"
+    android:background="#4682b4">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shared Preferences"
+            android:textColor="#FFFFFF"
+            android:textSize="35dp"
+            android:layout_margin="30dp"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:id="@+id/editext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Value1:"
+            android:textSize="25dp"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#708090"
+            android:layout_below="@+id/title"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <EditText
+            android:id="@+id/editext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editext1"
+            android:hint="Value2:"
+            android:textSize="25dp"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#708090"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button"
+            android:layout_below="@+id/editext2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+    </RelativeLayout>
+
